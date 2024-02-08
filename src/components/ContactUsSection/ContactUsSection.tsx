@@ -202,6 +202,7 @@ const ContactUsSection = () => {
                 id="name"
                 name="name"
                 placeholder="Enter Full Name"
+                required
               />
               <ValidationError
                 prefix="name"
@@ -216,6 +217,7 @@ const ContactUsSection = () => {
                 id="number"
                 name="number"
                 placeholder="Enter mobile number"
+                required
               />
               <ValidationError
                 prefix="number"
@@ -232,6 +234,7 @@ const ContactUsSection = () => {
                 id="industry"
                 name="industry"
                 placeholder="Enter Industry Field"
+                required
               />
               <ValidationError
                 prefix="industry"
