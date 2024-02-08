@@ -1,4 +1,5 @@
 import "./App.css";
+import ContactUsSection from "./components/ContactUsSection/ContactUsSection";
 import HeaderSection from "./components/HeaderSection/HeaderSection";
 import MainSection from "./components/MainSection/MainSection";
 
@@ -91,6 +92,9 @@ function App() {
       <HeaderSection />
       <div className="mt-[160px] mx-[80px]">
         <MainSection />
+      </div>
+      <div className="mt-[160px]">
+        <ContactUsSection />
       </div>
       <div className="absolute right-0 bottom-0 z-10">
         <svg
