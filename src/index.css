@@ -41,3 +41,11 @@
   line-height: 26.31px;
   color: #949494;
 }
+
+.visibleLoader {
+  opacity: 1;
+}
+
+.hiddenLoader {
+  opacity: 0;
+}
