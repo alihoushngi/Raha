@@ -26,14 +26,16 @@ const Card: ReactComponent<ICardProps> = (props) => {
               gradientUnits="userSpaceOnUse"
               gradientTransform="translate(130 1.5) rotate(90) scale(0.5 130)"
             >
-              <stop stop-color="#B39C63" />
-              <stop offset="1" stop-color="#B39C63" stop-opacity="0" />
+              <stop stopColor="#B39C63" />
+              <stop offset="1" stopColor="#B39C63" stopOpacity="0" />
             </radialGradient>
           </defs>
         </svg>
       </div>
       <h3 className="mt-[28px] text-xl font-bold">{cardTitle}</h3>
-      <h4 className="mt-[7px] mb-[31px] text-[17px] font-normal">{cardDes}</h4>
+      <h4 className="mt-[7px] mb-[31px] text-[17px] font-normal text-center">
+        {cardDes}
+      </h4>
     </div>
   );
 };

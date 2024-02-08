@@ -4,7 +4,7 @@ import { CardList } from "./MainSectionCardList";
 const MainSection = () => {
   const myCardList = CardList;
   return (
-    <div className="flex justify-center items-center gap-2">
+    <div className="flex justify-center items-center gap-2 max-sm:flex-col flex-wrap">
       {myCardList &&
         myCardList.map((data, index) => {
           return (
