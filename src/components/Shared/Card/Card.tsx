@@ -4,7 +4,7 @@ import { ICardProps } from "./CardTypes";
 const Card: ReactComponent<ICardProps> = (props) => {
   const { imageSrc, imageAlt, cardTitle, cardDes } = props;
   return (
-    <div className="bg-cardColor max-w-fit text-primary flex flex-col justify-center items-center min-w-[308px] min-h-[272px] z-20">
+    <div className="bg-cardColor max-w-fit text-primary flex flex-col justify-center items-center min-w-[308px] min-h-[272px] max-h-[272px] z-20">
       <div className="mt-[40px]">
         <img src={imageSrc} alt={imageAlt} />
       </div>
