@@ -1,9 +1,10 @@
 import "./App.css";
 import HeaderSection from "./components/HeaderSection/HeaderSection";
+import MainSection from "./components/MainSection/MainSection";
 
 function App() {
   return (
-    <div className="flex justify-center items-center">
+    <div>
       <div className="absolute left-0 top-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +89,10 @@ function App() {
         </svg>
       </div>
       <HeaderSection />
-      <div className="absolute right-0 bottom-0">
+      <div className="mt-[160px] mx-[80px]">
+        <MainSection />
+      </div>
+      <div className="absolute right-0 bottom-0 z-10">
         <svg
           width="287"
           height="397"
