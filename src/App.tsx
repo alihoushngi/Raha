@@ -191,10 +191,10 @@ function App() {
           </svg>
         </div>
         <HeaderSection />
-        <div className="mt-[160px] mx-[80px] max-sm:mx-0">
+        <div className="mt-[160px] mx-[80px] max-sm:mx-0 max-sm:mt-[70px]">
           <MainSection />
         </div>
-        <div className="mt-[160px] mb-[50px]">
+        <div className="mt-[160px] mb-[50px] max-sm:mb-[20px] max-sm:mt-[70px]">
           <ContactUsSection />
         </div>
         <div className="bg-cardColor h-20 flex items-center justify-center relative">
