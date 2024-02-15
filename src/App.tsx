@@ -199,7 +199,10 @@ function App() {
         </div>
         <div className="bg-cardColor h-20 flex items-center justify-center relative">
           <span className="text-secondary font-normal text-[22px] leading-[25.17px] text-center max-sm:text-[18px]">
-            Design by oxygen digital agency (www.o2lancer.com)
+            Design by oxygen digital agency{" "}
+            <a href="https://o2lancer.com/" className="hover:text-primary">
+              (www.o2lancer.com)
+            </a>
           </span>
           <div className="absolute right-0 bottom-[80px] z-10">
             <svg
