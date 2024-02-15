@@ -9,6 +9,9 @@ export default {
         secondary: "#BEBEBE",
         cardColor: "#141414",
       },
+      boxShadow: {
+        custom: "0px 0px 5px 0px #bea76b61",
+      },
     },
   },
   plugins: [],
