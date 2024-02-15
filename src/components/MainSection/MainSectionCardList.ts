@@ -1,7 +1,7 @@
-import enjoy from "../../assets/images/enjoy.png";
-import iran from "../../assets/images/iran2.png";
-import persian from "../../assets/images/persian.png";
-import union from "../../assets/images/Union.png";
+import enjoy from "../../assets/images/enjoy.svg";
+import iran from "../../assets/images/iran.svg";
+import persian from "../../assets/images/persian.svg";
+import union from "../../assets/images/union.svg";
 
 export const CardList = [
   {

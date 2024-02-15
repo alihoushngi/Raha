@@ -49,3 +49,7 @@
 .hiddenLoader {
   opacity: 0;
 }
+
+.myTransitionSpeed {
+  transition: all 300ms ease-in-out;
+}

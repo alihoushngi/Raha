@@ -11,7 +11,7 @@ const ContactUsSection = () => {
           homeland? Just drop us a message and let's create something
           extraordinary together!
         </p>
-        <div className="bg-cardColor py-8 px-14 min-w-[847px] mb-[38px] max-sm:max-w-[359px] max-sm:min-w-[359px] max-sm:px-6">
+        <div className="bg-cardColor py-8 px-14 w-full mb-[38px] max-sm:max-w-[359px] max-sm:min-w-[359px] max-sm:px-6">
           <h3 className="font-bold text-primary text-[20px] leading-[22.5px] text-center">
             Message sent successful
           </h3>
@@ -192,7 +192,7 @@ const ContactUsSection = () => {
         homeland? Just drop us a message and let's create something
         extraordinary together!
       </p>
-      <div className="bg-cardColor py-8 px-14 min-w-[847px] mb-[38px] max-sm:max-w-[359px] max-sm:min-w-[359px] max-sm:px-6">
+      <div className="bg-cardColor py-8 px-14 w-full mb-[38px] max-sm:max-w-[359px] max-sm:min-w-[359px] max-sm:px-6">
         <form className="flex flex-col My-form" onSubmit={handleSubmit}>
           <div className="grid grid-cols-2 gap-10 mb-8 max-sm:grid-cols-1">
             <label htmlFor="name" className="flex flex-col text-left gap-1">
