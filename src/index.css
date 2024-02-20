@@ -44,10 +44,12 @@
 
 .visibleLoader {
   opacity: 1;
+  z-index: 1000;
 }
 
 .hiddenLoader {
   opacity: 0;
+  z-index: 1;
 }
 
 .myTransitionSpeed {

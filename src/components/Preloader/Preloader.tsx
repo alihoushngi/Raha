@@ -2,11 +2,13 @@ import { ReactComponent } from "../../types/types";
 
 interface IPreloaderProps {
   isLoading: boolean;
+  onClick: () => void;
 }
 
-const Preloader: ReactComponent<IPreloaderProps> = ({ isLoading }) => {
+const Preloader: ReactComponent<IPreloaderProps> = ({ isLoading, onClick }) => {
   return (
     <div
+      onClick={onClick}
       className={`opacity-0 transition-opacity duration-1000 ease-out fixed top-0 left-0 w-full h-full bg-backgroundMe flex justify-center items-center ${
         isLoading ? "visibleLoader" : "hiddenLoader"
       }`}

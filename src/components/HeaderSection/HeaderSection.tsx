@@ -1,7 +1,7 @@
 const HeaderSection = () => {
   return (
-    <div className="mt-[82px] flex flex-col justify-center items-center ">
-      <div>
+    <div className="flex flex-col justify-center items-center ">
+      <div className="mt-[82px]">
         <svg
           width="182"
           height="120"

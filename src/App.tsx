@@ -10,17 +10,17 @@ function App() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsLoading(false); // Set loading to false after some time (simulating data loading)
-    }, 1000);
+      setIsLoading(false);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
     <>
-      <Preloader isLoading={isLoading} />
+      <Preloader isLoading={isLoading} onClick={() => setIsLoading(false)} />
       <div
-        className={`opacity-0 transition-opacity duration-1000 ease-in ${
+        className={`opacity-0 transition-opacity duration-1000 ease-in relative ${
           isLoading ? "hiddenLoader" : "visibleLoader"
         }`}
       >
