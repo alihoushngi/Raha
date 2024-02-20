@@ -413,7 +413,7 @@ const ContactUsSection = () => {
             </a>
           </div>
           <div>
-            <a href="#" target="_blank">
+            <a href="https://www.linkedin.com/in/rahabusiness" target="_blank">
               <svg
                 width="24"
                 height="24"
