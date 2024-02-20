@@ -282,6 +282,34 @@ const ContactUsSection = () => {
       </div>
       <div className="mb-7 max-sm:max-w-[343px]">
         <div className="text-center mb-7">
+          <p className="flex text-secondary font-normal text-[22px] leading-[25.17px] gap-2 max-sm:flex-col max-sm:text-left mb-2">
+            <svg
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clipPath="url(#clip0_445_828)">
+                <path
+                  d="M10.5 20.2734L5.19667 14.97C4.14779 13.9211 3.43349 12.5847 3.14411 11.1299C2.85473 9.67504 3.00326 8.16704 3.57092 6.7966C4.13858 5.42616 5.09987 4.25483 6.33324 3.43072C7.5666 2.60661 9.01665 2.16675 10.5 2.16675C11.9834 2.16675 13.4334 2.60661 14.6668 3.43072C15.9001 4.25483 16.8614 5.42616 17.4291 6.7966C17.9968 8.16704 18.1453 9.67504 17.8559 11.1299C17.5665 12.5847 16.8522 13.9211 15.8033 14.97L10.5 20.2734ZM14.625 13.7917C15.4408 12.9759 15.9963 11.9365 16.2213 10.8049C16.4463 9.67337 16.3308 8.50051 15.8892 7.43465C15.4477 6.36878 14.7 5.45777 13.7408 4.81682C12.7815 4.17587 11.6537 3.83377 10.5 3.83377C9.3463 3.83377 8.21851 4.17587 7.25924 4.81682C6.29997 5.45777 5.55229 6.36878 5.11076 7.43465C4.66923 8.50051 4.55368 9.67337 4.77871 10.8049C5.00374 11.9365 5.55926 12.9759 6.375 13.7917L10.5 17.9167L14.625 13.7917ZM10.5 11.3334C10.058 11.3334 9.63405 11.1578 9.32149 10.8452C9.00893 10.5326 8.83334 10.1087 8.83334 9.66668C8.83334 9.22466 9.00893 8.80073 9.32149 8.48817C9.63405 8.17561 10.058 8.00002 10.5 8.00002C10.942 8.00002 11.366 8.17561 11.6785 8.48817C11.9911 8.80073 12.1667 9.22466 12.1667 9.66668C12.1667 10.1087 11.9911 10.5326 11.6785 10.8452C11.366 11.1578 10.942 11.3334 10.5 11.3334Z"
+                  fill="#BEBEBE"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_445_828">
+                  <rect
+                    width="20"
+                    height="20"
+                    fill="white"
+                    transform="translate(0.5 0.5)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+            Raha Commercial Group, Innovation and Growth Center building, Azad
+            University West Tehran Branch, Ashrafi blvd., Tehran, Iran.
+          </p>
           <p className="flex text-secondary font-normal text-[22px] leading-[25.17px] gap-2 max-sm:flex-col max-sm:text-left">
             <svg
               width="21"
@@ -311,7 +339,7 @@ const ContactUsSection = () => {
             Iran, Raha Commercial Group
           </p>
         </div>
-        <div className="flex justify-between max-sm:flex-col">
+        <div className="flex justify-between max-sm:flex-col mb-8">
           <div>
             <a href="tel:+983137937062">
               <p className="flex text-secondary font-normal text-[22px] leading-[25.17px] gap-2 max-sm:flex-col max-sm:text-left transition-all ease-in-out hover:text-primary">

@@ -167,7 +167,7 @@ const Preloader: ReactComponent<IPreloaderProps> = ({ isLoading, onClick }) => {
           </h2>
         </div>
       </div>
-      <div className="absolute bottom-0 right-0">
+      <div className="absolute bottom-0 right-0 max-sm:hidden">
         <svg
           width="287"
           height="266"
