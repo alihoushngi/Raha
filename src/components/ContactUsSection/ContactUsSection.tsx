@@ -185,7 +185,7 @@ const ContactUsSection = () => {
     );
   }
   return (
-    <div className="text-center flex justify-center items-center flex-col relative">
+    <div className="text-center flex justify-center items-center flex-col relative max-w-[900px]">
       <h3 className="font-bold text-3xl text-primary">Work with us</h3>
       <p className="mt-3 mb-[38px] w-[754px] font-normal text-[23px] text-secondary text-center max-sm:max-w-[332px] max-sm:text-[18px] max-sm:leading-[20.59px]">
         Ready to forge a collaborative path with Raha Commerce Group in your
@@ -281,14 +281,15 @@ const ContactUsSection = () => {
         </form>
       </div>
       <div className="mb-7 max-sm:max-w-[343px]">
-        <div className="text-center mb-7">
-          <p className="flex text-secondary font-normal text-[22px] leading-[25.17px] gap-2 max-sm:flex-col max-sm:text-left mb-2">
+        <div className="mb-7">
+          <p className="flex text-secondary font-normal text-[22px] leading-[25.17px] gap-2 max-sm:flex-col max-sm:text-left mb-2 text-justify">
             <svg
               width="21"
               height="21"
               viewBox="0 0 21 21"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              className="min-w-[21px]"
             >
               <g clipPath="url(#clip0_445_828)">
                 <path
