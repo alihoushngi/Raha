@@ -3,6 +3,9 @@ import { useForm, ValidationError } from "@formspree/react";
 const ContactUsSection = () => {
   const [state, handleSubmit] = useForm("xwkgoqeo");
   if (state.succeeded) {
+    setTimeout(() => {
+      window.location.reload();
+    }, 3000);
     return (
       <div className="text-center flex justify-center items-center flex-col relative">
         <h3 className="font-bold text-3xl text-primary">Work with us</h3>
@@ -216,7 +219,7 @@ const ContactUsSection = () => {
                 type="text"
                 id="number"
                 name="number"
-                placeholder="Enter mobile number"
+                placeholder="+1"
                 required
               />
               <ValidationError
@@ -387,7 +390,7 @@ const ContactUsSection = () => {
         </p>
         <div className="flex gap-4 justify-center items-center">
           <div>
-            <a href="Wa.me/+989100779898" target="_blank">
+            <a href="https://Wa.me/+989100779898" target="_blank">
               <svg
                 width="20"
                 height="20"
